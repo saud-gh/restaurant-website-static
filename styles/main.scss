@@ -34,4 +34,33 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  .hero-content {
+    max-width: 50%;
+    background-color: rgba(255, 255, 255, 0.83);
+    text-align: center;
+    position: relative;
+    top: 25%;
+    padding: 70px 0;
+    h1 {
+      font-size: 45px;
+      color: #2c3a42;
+      font-family: "Cookie";
+      font-weight: 400;
+    }
+    h2 {
+      font-size: 37px;
+      color: #ad6c12;
+      font-family: "Raleway";
+      font-weight: 600;
+    }
+    button {
+      border: none;
+      background-color: #fff;
+      font-size: 24px;
+      color: #26363a;
+      font-family: "Raleway";
+      font-weight: 600;
+      padding: 3px 12px;
+    }
+  }
 }
