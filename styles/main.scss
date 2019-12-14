@@ -9,10 +9,11 @@
 }
 
 #header {
-  z-index: 99;
-  position: relative;
+  position: absolute;
+  width: 100%;
   .navbar {
     background-color: rgba(0, 0, 0, 0);
+    z-index: 99;
     a {
       color: rgba(255, 255, 255, 255);
     }
@@ -34,12 +35,13 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 1px;
   .hero-content {
     max-width: 50%;
     background-color: rgba(255, 255, 255, 0.83);
     text-align: center;
     position: relative;
-    top: 25%;
+    top: 28%;
     padding: 70px 0;
     h1 {
       font-size: 45px;
@@ -66,14 +68,13 @@
 }
 
 #about {
-  position: absolute;
+  position: relative;
   width: 100%;
   top: 100vh;
-  left: 0;
+  //   left: 0;
   background-color: #26363a;
   color: #fff;
   padding: 50px 0;
-
   h3 {
     font-size: 26px;
   }
