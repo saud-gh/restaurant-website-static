@@ -121,4 +121,39 @@
 #gallery .grid .gallery-card {
   width: 200px;
 }
+
+#menu {
+  position: relative;
+  top: 100vh;
+  height: 800px;
+  background-image: url(../images/menu-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 65px;
+}
+
+#menu .menu-content {
+  background-color: rgba(255, 255, 255, 0.83);
+  padding: 25px;
+}
+
+#menu .menu-content .circle {
+  border-radius: 50%;
+  background-color: #fff;
+  height: 80px;
+  width: 80px;
+}
+
+#menu .menu-content h3 {
+  font-size: 18px;
+}
+
+#menu .menu-content p {
+  font-size: 15px;
+}
+
+#menu .menu-content .menu-row {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=main.css.map */
