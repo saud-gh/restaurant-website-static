@@ -103,4 +103,22 @@
 #services p {
   font-size: 15px;
 }
+
+#gallery {
+  position: relative;
+  top: 100vh;
+  height: 100vh;
+  background-image: url(../images/menu-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#gallery .grid {
+  max-width: 90%;
+}
+
+#gallery .grid .gallery-card {
+  width: 200px;
+}
 /*# sourceMappingURL=main.css.map */
