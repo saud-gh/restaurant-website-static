@@ -41,7 +41,7 @@
 }
 
 #hero .hero-content {
-  max-width: 50%;
+  max-width: 480px;
   background-color: rgba(255, 255, 255, 0.83);
   text-align: center;
   position: relative;
@@ -169,7 +169,7 @@
 }
 
 #events .cards .event-card {
-  width: 270px;
+  max-width: 270px;
   border-radius: 0;
 }
 
@@ -189,5 +189,21 @@
 #events .cards .event-card .card-text,
 #events .cards .event-card .card-link {
   font-size: 15px;
+}
+
+#testimonial {
+  position: relative;
+  top: 100vh;
+  padding: 50px 0;
+  background-color: #26363a;
+}
+
+#testimonial .testimonial-content {
+  max-width: 460px;
+  color: #fff;
+}
+
+#testimonial .testimonial-content h3 {
+  font-size: 50px;
 }
 /*# sourceMappingURL=main.css.map */

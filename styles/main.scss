@@ -36,7 +36,7 @@
   background-position: center;
   background-repeat: no-repeat;
   .hero-content {
-    max-width: 50%;
+    max-width: 480px;
     background-color: rgba(255, 255, 255, 0.83);
     text-align: center;
     position: relative;
@@ -150,7 +150,7 @@
   .cards {
     padding: 25px 0;
     .event-card {
-      width: 270px;
+      max-width: 270px;
       border-radius: 0;
       .card-img {
         border-radius: 0;
@@ -166,6 +166,20 @@
       .card-link {
         font-size: 15px;
       }
+    }
+  }
+}
+
+#testimonial {
+  position: relative;
+  top: 100vh;
+  padding: 50px 0;
+  background-color: #26363a;
+  .testimonial-content {
+    max-width: 460px;
+    color: #fff;
+    h3 {
+      font-size: 50px;
     }
   }
 }
