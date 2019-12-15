@@ -141,3 +141,31 @@
     }
   }
 }
+
+#events {
+  position: relative;
+  top: 100vh;
+  padding: 50px 0;
+  background-color: #eee;
+  .cards {
+    padding: 25px 0;
+    .event-card {
+      width: 270px;
+      border-radius: 0;
+      .card-img {
+        border-radius: 0;
+      }
+      p,
+      h5 {
+        margin-bottom: 7px;
+      }
+      .card-title {
+        font-size: 18px;
+      }
+      .card-text,
+      .card-link {
+        font-size: 15px;
+      }
+    }
+  }
+}

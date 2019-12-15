@@ -156,4 +156,38 @@
 #menu .menu-content .menu-row {
   margin-bottom: 30px;
 }
+
+#events {
+  position: relative;
+  top: 100vh;
+  padding: 50px 0;
+  background-color: #eee;
+}
+
+#events .cards {
+  padding: 25px 0;
+}
+
+#events .cards .event-card {
+  width: 270px;
+  border-radius: 0;
+}
+
+#events .cards .event-card .card-img {
+  border-radius: 0;
+}
+
+#events .cards .event-card p,
+#events .cards .event-card h5 {
+  margin-bottom: 7px;
+}
+
+#events .cards .event-card .card-title {
+  font-size: 18px;
+}
+
+#events .cards .event-card .card-text,
+#events .cards .event-card .card-link {
+  font-size: 15px;
+}
 /*# sourceMappingURL=main.css.map */
