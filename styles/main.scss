@@ -183,3 +183,20 @@
     }
   }
 }
+
+footer {
+  //   height: 320px;
+  background-color: #eee;
+  position: relative;
+  top: 100vh;
+  padding: 50px 0;
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .footer-left {
+    border-right: 1px solid #000;
+  }
+}

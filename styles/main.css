@@ -206,4 +206,23 @@
 #testimonial .testimonial-content h3 {
   font-size: 50px;
 }
+
+footer {
+  background-color: #eee;
+  position: relative;
+  top: 100vh;
+  padding: 50px 0;
+}
+
+footer h3 {
+  font-size: 18px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer .footer-left {
+  border-right: 1px solid #000;
+}
 /*# sourceMappingURL=main.css.map */
