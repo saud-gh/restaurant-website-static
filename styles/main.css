@@ -211,7 +211,7 @@ footer {
   background-color: #eee;
   position: relative;
   top: 100vh;
-  padding: 50px 0;
+  padding: 65px 0;
 }
 
 footer h3 {
@@ -219,10 +219,24 @@ footer h3 {
 }
 
 footer p {
-  font-size: 15px;
+  font-size: 16px;
 }
 
-footer .footer-left {
-  border-right: 1px solid #000;
+footer .footer-middle .footer-contact {
+  margin-bottom: 15px;
+}
+
+footer .footer-middle .footer-contact p {
+  padding: 0 5px;
+  margin: 0;
+  font-size: 16px;
+}
+
+footer .footer-middle .footer-contact .contact-icon {
+  font-size: 16px;
+}
+
+footer .footer-social {
+  font-size: 20px;
 }
 /*# sourceMappingURL=main.css.map */
