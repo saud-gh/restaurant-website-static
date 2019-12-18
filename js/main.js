@@ -1,4 +1,4 @@
-const setup = () => {
+const setupMenuPage = () => {
   const menuSections = ["breakfast", "lunch", "dinner", "drinks"];
 
   menuSections.map(section => {
@@ -58,4 +58,6 @@ const getMenuItemTemplate = ({ name, price, image, description }) => {
     `;
 };
 
-setup();
+const menuPage = document.getElementById("main-menu");
+
+if (menuPage) setupMenuPage();
