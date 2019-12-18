@@ -239,4 +239,30 @@ footer .footer-middle .footer-contact .contact-icon {
 footer .footer-social {
   font-size: 20px;
 }
+
+#main-menu {
+  position: relative;
+  top: 100vh;
+  padding: 65px 0;
+}
+
+#main-menu .nav .tab-link {
+  padding: 5px 8px;
+  font-size: 18px;
+}
+
+#main-menu .menu-row .circle {
+  border-radius: 50%;
+  background-color: #ac6060;
+  height: 80px;
+  width: 80px;
+}
+
+#main-menu .menu-row h3 {
+  font-size: 18px;
+}
+
+#main-menu .menu-row p {
+  font-size: 15px;
+}
 /*# sourceMappingURL=main.css.map */
