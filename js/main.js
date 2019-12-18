@@ -1,6 +1,6 @@
 const setup = () => {
-  const evenNumDishes = lunch.length % 2;
-  const numOfRows = evenNumDishes ? lunch.length / 2 : lunch.length / 2 + 1;
+  const evenNumItems = lunch.length % 2;
+  const numOfRows = evenNumItems ? lunch.length / 2 : lunch.length / 2 + 1;
 
   let rows = [];
 
@@ -10,9 +10,32 @@ const setup = () => {
     rows[i] = rowElement;
   }
 
-  (lunch || []).map(dish => {
-    const { title, price, image, description } = dish;
+  (lunch || []).map(item => {
+    const { name, price, image, description } = item;
   });
+};
+
+const getMenuItemTemplate = (name, price, image, description) => {
+  return `
+    <div class="col-5">
+        <div class="row">
+        <div class="col-3">
+            <div class="circle">
+            <img
+                class="img-fluid"
+                src="${image}"
+                alt="${name}"
+            />
+            </div>
+        </div>
+        <div class="col-9">
+            <h3>${name}</h3>
+            <p>${description}</p>
+            <p><strong>$${price}</strong></p>
+        </div>
+        </div>
+    </div>
+    `;
 };
 
 setup();
