@@ -1,8 +1,22 @@
 const setup = () => {
-  const evenNumItems = lunch.length % 2 === 0;
+  const menuSections = ["breakfast", "lunch", "dinner", "drinks"];
+
+  menuSections.map(section => {
+    const rows = getMenuSectionRows(section);
+
+    const tabContent = document.getElementById(`pills-${section}`);
+
+    (rows || []).forEach(row => {
+      tabContent.appendChild(row);
+    });
+  });
+};
+
+const getMenuSectionRows = section => {
+  const evenNumItems = menu[section].length % 2 === 0;
   const numOfRows = evenNumItems
-    ? Math.floor(lunch.length / 2)
-    : Math.floor(lunch.length / 2) + 1;
+    ? Math.floor(menu[section].length / 2)
+    : Math.floor(menu[section].length / 2) + 1;
 
   let rows = [];
 
@@ -12,17 +26,13 @@ const setup = () => {
     rows[i] = rowElement;
   }
 
-  (lunch || []).map((item, i) => {
+  (menu[section] || []).map((item, i) => {
     const itemIndexEven = i % 2 === 0;
     const rowIndex = itemIndexEven ? i / 2 : (i - 1) / 2;
     rows[rowIndex].innerHTML += getMenuItemTemplate(item);
   });
 
-  const lunchTabContent = document.getElementById("pills-lunch");
-
-  (rows || []).forEach(row => {
-    lunchTabContent.appendChild(row);
-  });
+  return rows;
 };
 
 const getMenuItemTemplate = ({ name, price, image, description }) => {
