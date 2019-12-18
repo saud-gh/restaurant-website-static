@@ -3,4 +3,33 @@
   top: 100vh;
   padding: 65px 0;
 }
+
+#main-menu .nav .tab-link {
+  padding: 5px 8px;
+  font-size: 18px;
+}
+
+#main-menu .menu-row {
+  margin-bottom: 30px;
+}
+
+#main-menu .menu-row .circle {
+  border-radius: 50%;
+  background-color: #ac6060;
+  height: 90px;
+  width: 90px;
+}
+
+#main-menu .menu-row .circle img {
+  border-radius: 50%;
+}
+
+#main-menu .menu-row h3 {
+  font-size: 18px;
+}
+
+#main-menu .menu-row p {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
 /*# sourceMappingURL=menu.css.map */
