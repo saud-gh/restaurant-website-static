@@ -27,6 +27,14 @@
   font-size: 29.16667pt;
 }
 
+#header .navbar-toggler {
+  border: 2px solid #fff;
+}
+
+#header .navbar-toggler .navbar-toggler-icon {
+  color: #fff;
+}
+
 #hero {
   z-index: 1;
   position: absolute;
@@ -244,6 +252,7 @@ footer .footer-social {
   position: relative;
   top: 100vh;
   padding: 65px 0;
+  min-height: 730px;
 }
 
 #main-menu .nav .tab-link {
@@ -251,11 +260,19 @@ footer .footer-social {
   font-size: 18px;
 }
 
+#main-menu .menu-row {
+  margin-bottom: 30px;
+}
+
 #main-menu .menu-row .circle {
   border-radius: 50%;
   background-color: #ac6060;
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
+}
+
+#main-menu .menu-row .circle img {
+  border-radius: 50%;
 }
 
 #main-menu .menu-row h3 {
@@ -264,5 +281,6 @@ footer .footer-social {
 
 #main-menu .menu-row p {
   font-size: 15px;
+  margin-bottom: 4px;
 }
 /*# sourceMappingURL=main.css.map */

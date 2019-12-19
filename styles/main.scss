@@ -22,7 +22,19 @@
       //   font-family: Raleway-Bold, AdobeInvisFont, MyriadPro-Regular;
     }
   }
+  .navbar-toggler {
+    border: 2px solid #fff;
+    .navbar-toggler-icon {
+      color: #fff;
+    }
+  }
 }
+
+// @include media-breakpoint-up(md) {
+//   .navbar {
+//     background-color: #26363a;
+//   }
+// }
 
 #hero {
   z-index: 1;
